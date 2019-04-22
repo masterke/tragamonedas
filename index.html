@@ -1,0 +1,603 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>TragaCreditos PokeGO!</title>
+
+<audio src="win1.mp3"  loop="false" id="win1" preload="none"></audio>
+<script type='text/javascript' src='js/jquery.min.js'></script>
+<script>function Funcion(Metodo,Key,Value) {
+ $.post("php/Traga.php", {Metodo:Metodo,Key:Key,Value:Value }, function (data) {
+	eval(data);
+	
+  });       
+        }
+		
+		
+		function DibujarVueltas(){
+			DibujarVuelta(50);
+			setTimeout ("DibujarVuelta(100)", 1200);
+			setTimeout ("DibujarVuelta(200)", 2400);
+			setTimeout ("DibujarVuelta(400)", 3600);
+			setTimeout ("DibujarVuelta(800)", 4800);
+			setTimeout ("DibujarVuelta(400)", 6000);
+			setTimeout ("DibujarVuelta(200)", 7200);
+			setTimeout ("DibujarVuelta(100)", 8400);
+			setTimeout ("DibujarVuelta(50)", 9600);
+		}
+       function DibujarVuelta(tiempop) {
+		  
+		   setTimeout ("Bar(true)", 50);
+		   setTimeout ("Bul1(true)", 100);
+		   setTimeout ("PsyD1(true)", 150);
+		   setTimeout ("Pika1(true)", 200);
+		   setTimeout ("New(true)", 250);
+		   setTimeout ("PsyD2(true)", 300);
+		   setTimeout ("MasterBall(true)", 350);
+		   setTimeout ("Bul2(true)", 400);
+		   setTimeout ("PsyD3(true)", 450);
+		   setTimeout ("Squa1(true)", 500);
+		   setTimeout ("Char1(true)", 550);
+		   setTimeout ("PsyD4(true)", 600);
+		   setTimeout ("siete(true)", 650);
+		   setTimeout ("Bul3(true)", 700);
+		   setTimeout ("PsyD5(true)", 750);
+		   setTimeout ("Pika2(true)", 800);
+		   setTimeout ("NewTwo(true)", 850);
+		   setTimeout ("PsyD6(true)", 900);
+		   setTimeout ("UltraBall(true)", 950);
+		   setTimeout ("Bul4(true)", 1000);
+		   setTimeout ("PsyD7(true)", 1050);
+		   setTimeout ("Squa2(true)", 1100);
+		   setTimeout ("Char2(true)", 1150);
+		   setTimeout ("Bar2(true)", 1200);
+		  
+		   
+		   setTimeout ("Bar(false)", 50+tiempop);
+		   setTimeout ("Bul1(false)", 100+tiempop);
+		   setTimeout ("PsyD1(false)", 150+tiempop);
+		   setTimeout ("Pika1(false)", 200+tiempop);
+		   setTimeout ("New(false)", 250+tiempop);
+		   setTimeout ("PsyD2(false)", 300+tiempop);
+		   setTimeout ("MasterBall(false)", 350+tiempop);
+		   setTimeout ("Bul2(false)", 400+tiempop);
+		   setTimeout ("PsyD3(false)", 450+tiempop);
+		   setTimeout ("Squa1(false)", 500+tiempop);
+		   setTimeout ("Char1(false)", 550+tiempop);
+		   setTimeout ("PsyD4(false)", 600+tiempop);
+		   setTimeout ("siete(false)", 650+tiempop);
+		   setTimeout ("Bul3(false)", 700+tiempop);
+		   setTimeout ("PsyD5(false)", 750+tiempop);
+		   setTimeout ("Pika2(false)", 800+tiempop);
+		   setTimeout ("NewTwo(false)", 850+tiempop);
+		   setTimeout ("PsyD6(false)", 900+tiempop);
+		   setTimeout ("UltraBall(false)", 950+tiempop);
+		   setTimeout ("Bul4(false)", 1000+tiempop);
+		   setTimeout ("PsyD7(false)", 1050+tiempop);
+		   setTimeout ("Squa2(false)", 1100+tiempop);
+		   setTimeout ("Char2(false)", 1150+tiempop);
+		   setTimeout ("Bar2(false)", 1200+tiempop);
+		   
+	   }
+	   function SBul2() {
+		   DibujarVueltas();
+		   setTimeout ("Sel('Bul2')", 10800);
+	   }
+	    function SPsyD3() {
+		   DibujarVueltas();
+		   setTimeout ("Sel('PsyD3')", 10800);
+	   }
+	   function SSqua1() {
+		   DibujarVueltas();
+		   setTimeout ("Sel('Squa1')", 10800);
+	   }
+	   
+	   function SChar1() {
+		   DibujarVueltas();
+		   setTimeout ("Sel('Char1')", 10800);
+	   }
+	    function SPsyD4() {
+		   DibujarVueltas();
+		   setTimeout ("Sel('PsyD4')", 10800);
+	   }
+	    function Ssiete() {
+		   DibujarVueltas();
+		   setTimeout ("Sel('siete')", 10800);
+	   }
+	   function SBul3() {
+		   DibujarVueltas();
+		   setTimeout ("Sel('Bul3')", 10800);
+	   }
+	   function SPsyD5() {
+		   DibujarVueltas();
+		   setTimeout ("Sel('PsyD5')", 10800);
+	   }
+	    function SPika2() {
+		   DibujarVueltas();
+		   setTimeout ("Sel('Pika2')", 10800);
+	   }
+	   function SNewTwo() {
+		   DibujarVueltas();
+		   setTimeout ("Sel('NewTwo')", 10800);
+	   }
+	   function SPsyD6() {
+		   DibujarVueltas();
+		   setTimeout ("Sel('PsyD6')", 10800);
+	   }
+	   function SUltraBall() {
+		   DibujarVueltas();
+		   setTimeout ("Sel('UltraBall')", 10800);
+	   }
+	    function SBul4() {
+		   DibujarVueltas();
+		   setTimeout ("Sel('Bul4')", 10800);
+	   }
+	   
+	    function SPsyD7() {
+		   DibujarVueltas();
+		   setTimeout ("Sel('PsyD7')", 10800);
+	   }
+	   
+	    function SSqua2() {
+		   DibujarVueltas();
+		   setTimeout ("Sel('Squa2')", 10800);
+	   }
+	    function SChar2() {
+		   DibujarVueltas();
+		   setTimeout ("Sel('Char2')", 10800);
+	   }
+	   function SBar2() {
+		   DibujarVueltas();
+		   setTimeout ("Sel('Bar2')", 10800);
+	   }
+	    function SBar() {
+		   DibujarVueltas();
+		   setTimeout ("Sel('Bar')", 10800);
+	   }
+	   
+	    function SBul1() {
+		   DibujarVueltas();
+		   setTimeout ("Sel('Bul1')", 10800);
+	   }
+	     function SPsyD1() {
+		   DibujarVueltas();
+		   setTimeout ("Sel('PsyD1')", 10800);
+	   }
+	   function SPika1() {
+		   DibujarVueltas();
+		   setTimeout ("Sel('Pika1')", 10800);
+	   }
+	   function SNew() {
+		   DibujarVueltas();
+		   setTimeout ("Sel('New')", 10800);
+	   }
+	   function SPsyD2() {
+		   DibujarVueltas();
+		   setTimeout ("Sel('PsyD2')", 10800);
+	   }
+	   function SMasterBall() {
+		   DibujarVueltas();
+		   setTimeout ("Sel('MasterBall')", 10800);
+	   }
+	    function Sel(poke) {
+		 	var tiempop=50;
+			var tiempolento1=1,tiempolento2=1,tiempolento3=1,tiempolento4=1,tiempolento5=1,tiempolento6=1,tiempolento7=1,tiempolento8=1,tiempolento9=1,tiempolento10=1,tiempolento11=1,tiempolento12=1,tiempolento13=1,tiempolento14=1,tiempolento15=1,tiempolento16=1,tiempolento17=1,tiempolento18=1,tiempolento19=1,tiempolento20=1,tiempolento21=1,tiempolento22=1,tiempolento23=1,tiempolento24=1,tiempolento25=1,tiempolento26=1,tiempolento27=1,tiempolento28=1,tiempolento29=1,tiempolento30=1,tiempolento31=1,tiempolento32=1;
+			if(poke=="Bul2"){
+				tiempolento1=2,tiempolento2=3,tiempolento3=4,tiempolento4=5,tiempolento5=6,tiempolento6=7,tiempolento7=8,tiempolento8=9,tiempolento9=0,tiempolento10=0,tiempolento11=0,tiempolento12=0,tiempolento13=0,tiempolento14=0,tiempolento15=0,tiempolento16=0,tiempolento17=0,tiempolento18=0,tiempolento19=0,tiempolento20=0,tiempolento21=0,tiempolento22=0,tiempolento23=0,tiempolento24=0,tiempolento25=0,tiempolento26=0,tiempolento27=0,tiempolento28=0,tiempolento29=0,tiempolento30=0,tiempolento31=0,tiempolento32=0;	
+			}
+			if(poke=="PsyD3"){
+				tiempolento1=1,tiempolento2=2,tiempolento3=3,tiempolento4=4,tiempolento5=5,tiempolento6=6,tiempolento7=7,tiempolento8=8,tiempolento9=9,tiempolento10=0,tiempolento11=0,tiempolento12=0,tiempolento13=0,tiempolento14=0,tiempolento15=0,tiempolento16=0,tiempolento17=0,tiempolento18=0,tiempolento19=0,tiempolento20=0,tiempolento21=0,tiempolento22=0,tiempolento23=0,tiempolento24=0,tiempolento25=0,tiempolento26=0,tiempolento27=0,tiempolento28=0,tiempolento29=0,tiempolento30=0,tiempolento31=0,tiempolento32=0;	
+			}
+			
+			if(poke=="Squa1"){
+				tiempolento1=1,tiempolento2=1,tiempolento3=2,tiempolento4=3,tiempolento5=4,tiempolento6=5,tiempolento7=6,tiempolento8=7,tiempolento9=8,tiempolento10=9,tiempolento11=0,tiempolento12=0,tiempolento13=0,tiempolento14=0,tiempolento15=0,tiempolento16=0,tiempolento17=0,tiempolento18=0,tiempolento19=0,tiempolento20=0,tiempolento21=0,tiempolento22=0,tiempolento23=0,tiempolento24=0,tiempolento25=0,tiempolento26=0,tiempolento27=0,tiempolento28=0,tiempolento29=0,tiempolento30=0,tiempolento31=0,tiempolento32=0;	
+			}
+			
+			if(poke=="Char1"){
+				tiempolento1=1,tiempolento2=1,tiempolento3=1,tiempolento4=2,tiempolento5=3,tiempolento6=4,tiempolento7=5,tiempolento8=6,tiempolento9=7,tiempolento10=8,tiempolento11=9,tiempolento12=0,tiempolento13=0,tiempolento14=0,tiempolento15=0,tiempolento16=0,tiempolento17=0,tiempolento18=0,tiempolento19=0,tiempolento20=0,tiempolento21=0,tiempolento22=0,tiempolento23=0,tiempolento24=0,tiempolento25=0,tiempolento26=0,tiempolento27=0,tiempolento28=0,tiempolento29=0,tiempolento30=0,tiempolento31=0,tiempolento32=0;	
+			}
+			
+			if(poke=="PsyD4"){
+				tiempolento1=1,tiempolento2=1,tiempolento3=1,tiempolento4=1,tiempolento5=1.9,tiempolento6=2.8,tiempolento7=3.7,tiempolento8=4.6,tiempolento9=5.5,tiempolento10=6.4,tiempolento11=7.3,tiempolento12=8.2,tiempolento13=0,tiempolento14=0,tiempolento15=0,tiempolento16=0,tiempolento17=0,tiempolento18=0,tiempolento19=0,tiempolento20=0,tiempolento21=0,tiempolento22=0,tiempolento23=0,tiempolento24=0,tiempolento25=0,tiempolento26=0,tiempolento27=0,tiempolento28=0,tiempolento29=0,tiempolento30=0,tiempolento31=0,tiempolento32=0;	
+			}
+			if(poke=="siete"){
+				tiempolento1=1,tiempolento2=1,tiempolento3=1,tiempolento4=1,tiempolento5=1,tiempolento6=1.8,tiempolento7=2.7,tiempolento8=3.6,tiempolento9=4.5,tiempolento10=5.4,tiempolento11=6.3,tiempolento12=7.2,tiempolento13=8.1,tiempolento14=0,tiempolento15=0,tiempolento16=0,tiempolento17=0,tiempolento18=0,tiempolento19=0,tiempolento20=0,tiempolento21=0,tiempolento22=0,tiempolento23=0,tiempolento24=0,tiempolento25=0,tiempolento26=0,tiempolento27=0,tiempolento28=0,tiempolento29=0,tiempolento30=0,tiempolento31=0,tiempolento32=0;	
+			}
+			if(poke=="Bul3"){
+				tiempolento1=1,tiempolento2=1,tiempolento3=1,tiempolento4=1,tiempolento5=1,tiempolento6=1,tiempolento7=1.7,tiempolento8=2.6,tiempolento9=3.5,tiempolento10=4.4,tiempolento11=5.3,tiempolento12=6.2,tiempolento13=7.1,tiempolento14=8,tiempolento15=0,tiempolento16=0,tiempolento17=0,tiempolento18=0,tiempolento19=0,tiempolento20=0,tiempolento21=0,tiempolento22=0,tiempolento23=0,tiempolento24=0,tiempolento25=0,tiempolento26=0,tiempolento27=0,tiempolento28=0,tiempolento29=0,tiempolento30=0,tiempolento31=0,tiempolento32=0;	
+			}
+			if(poke=="PsyD5"){
+				tiempolento1=1,tiempolento2=1,tiempolento3=1,tiempolento4=1,tiempolento5=1,tiempolento6=1,tiempolento7=1,tiempolento8=1.6,tiempolento9=2.5,tiempolento10=3.4,tiempolento11=4.3,tiempolento12=5.2,tiempolento13=6.1,tiempolento14=7,tiempolento15=7.8,tiempolento16=0,tiempolento17=0,tiempolento18=0,tiempolento19=0,tiempolento20=0,tiempolento21=0,tiempolento22=0,tiempolento23=0,tiempolento24=0,tiempolento25=0,tiempolento26=0,tiempolento27=0,tiempolento28=0,tiempolento29=0,tiempolento30=0,tiempolento31=0,tiempolento32=0;	
+			}
+			if(poke=="Pika2"){
+				tiempolento1=1,tiempolento2=1,tiempolento3=1,tiempolento4=1,tiempolento5=1,tiempolento6=1,tiempolento7=1,tiempolento8=1,tiempolento9=1.8,tiempolento10=2.6,tiempolento11=3.4,tiempolento12=4.2,tiempolento13=5,tiempolento14=5.8,tiempolento15=6.6,tiempolento16=7.4,tiempolento17=0,tiempolento18=0,tiempolento19=0,tiempolento20=0,tiempolento21=0,tiempolento22=0,tiempolento23=0,tiempolento24=0,tiempolento25=0,tiempolento26=0,tiempolento27=0,tiempolento28=0,tiempolento29=0,tiempolento30=0,tiempolento31=0,tiempolento32=0;	
+			}
+			if(poke=="NewTwo"){
+				tiempolento1=1,tiempolento2=1,tiempolento3=1,tiempolento4=1,tiempolento5=1,tiempolento6=1,tiempolento7=1,tiempolento8=1,tiempolento9=1,tiempolento10=1.6,tiempolento11=2.4,tiempolento12=3.2,tiempolento13=4,tiempolento14=4.8,tiempolento15=5.6,tiempolento16=6.4,tiempolento17=7.2,tiempolento18=0,tiempolento19=0,tiempolento20=0,tiempolento21=0,tiempolento22=0,tiempolento23=0,tiempolento24=0,tiempolento25=0,tiempolento26=0,tiempolento27=0,tiempolento28=0,tiempolento29=0,tiempolento30=0,tiempolento31=0,tiempolento32=0;	
+			}
+			if(poke=="PsyD6"){
+				tiempolento1=1,tiempolento2=1,tiempolento3=1,tiempolento4=1,tiempolento5=1,tiempolento6=1,tiempolento7=1,tiempolento8=1,tiempolento9=1,tiempolento10=1,tiempolento11=1.4,tiempolento12=2.2,tiempolento13=3,tiempolento14=3.8,tiempolento15=4.6,tiempolento16=5.4,tiempolento17=6.2,tiempolento18=7,tiempolento19=0,tiempolento20=0,tiempolento21=0,tiempolento22=0,tiempolento23=0,tiempolento24=0,tiempolento25=0,tiempolento26=0,tiempolento27=0,tiempolento28=0,tiempolento29=0,tiempolento30=0,tiempolento31=0,tiempolento32=0;	
+			}
+			if(poke=="UltraBall"){
+				tiempolento1=1,tiempolento2=1,tiempolento3=1,tiempolento4=1,tiempolento5=1,tiempolento6=1,tiempolento7=1,tiempolento8=1,tiempolento9=1,tiempolento10=1,tiempolento11=1,tiempolento12=1.5,tiempolento13=2,tiempolento14=2.8,tiempolento15=3.6,tiempolento16=4.4,tiempolento17=5.2,tiempolento18=6,tiempolento19=6.6,tiempolento20=0,tiempolento21=0,tiempolento22=0,tiempolento23=0,tiempolento24=0,tiempolento25=0,tiempolento26=0,tiempolento27=0,tiempolento28=0,tiempolento29=0,tiempolento30=0,tiempolento31=0,tiempolento32=0;	
+			}
+			if(poke=="Bul4"){
+				tiempolento1=1,tiempolento2=1,tiempolento3=1,tiempolento4=1,tiempolento5=1,tiempolento6=1,tiempolento7=1,tiempolento8=1,tiempolento9=1,tiempolento10=1,tiempolento11=1,tiempolento12=1,tiempolento13=1.6,tiempolento14=2.2,tiempolento15=2.8,tiempolento16=3.4,tiempolento17=3.9,tiempolento18=4.5,tiempolento19=5.2,tiempolento20=6,tiempolento21=0,tiempolento22=0,tiempolento23=0,tiempolento24=0,tiempolento25=0,tiempolento26=0,tiempolento27=0,tiempolento28=0,tiempolento29=0,tiempolento30=0,tiempolento31=0,tiempolento32=0;	
+			}
+			if(poke=="PsyD7"){
+				tiempolento1=1,tiempolento2=1,tiempolento3=1,tiempolento4=1,tiempolento5=1,tiempolento6=1,tiempolento7=1,tiempolento8=1,tiempolento9=1,tiempolento10=1,tiempolento11=1,tiempolento12=1,tiempolento13=1,tiempolento14=1.2,tiempolento15=1.8,tiempolento16=2.4,tiempolento17=2.9,tiempolento18=3.5,tiempolento19=4.2,tiempolento20=5,tiempolento21=5.5,tiempolento22=0,tiempolento23=0,tiempolento24=0,tiempolento25=0,tiempolento26=0,tiempolento27=0,tiempolento28=0,tiempolento29=0,tiempolento30=0,tiempolento31=0,tiempolento32=0;	
+			}
+			if(poke=="Squa2"){
+				tiempolento1=1,tiempolento2=1,tiempolento3=1,tiempolento4=1,tiempolento5=1,tiempolento6=1,tiempolento7=1,tiempolento8=1,tiempolento9=1,tiempolento10=1,tiempolento11=1,tiempolento12=1,tiempolento13=1,tiempolento14=1,tiempolento15=1.5,tiempolento16=2,tiempolento17=2.5,tiempolento18=3,tiempolento19=3.5,tiempolento20=4,tiempolento21=4.5,tiempolento22=5,tiempolento23=0,tiempolento24=0,tiempolento25=0,tiempolento26=0,tiempolento27=0,tiempolento28=0,tiempolento29=0,tiempolento30=0,tiempolento31=0,tiempolento32=0;	
+			}
+			if(poke=="Char2"){
+				tiempolento1=1,tiempolento2=1,tiempolento3=1,tiempolento4=1,tiempolento5=1,tiempolento6=1,tiempolento7=1,tiempolento8=1,tiempolento9=1,tiempolento10=1,tiempolento11=1,tiempolento12=1,tiempolento13=1,tiempolento14=1,tiempolento15=1,tiempolento16=1.5,tiempolento17=2,tiempolento18=2.5,tiempolento19=3,tiempolento20=3.5,tiempolento21=4,tiempolento22=4.5,tiempolento23=5,tiempolento24=0,tiempolento25=0,tiempolento26=0,tiempolento27=0,tiempolento28=0,tiempolento29=0,tiempolento30=0,tiempolento31=0,tiempolento32=0;	
+			}
+			if(poke=="Bar2"){
+				tiempolento1=1,tiempolento2=1,tiempolento3=1,tiempolento4=1,tiempolento5=1,tiempolento6=1,tiempolento7=1,tiempolento8=1,tiempolento9=1,tiempolento10=1,tiempolento11=1,tiempolento12=1,tiempolento13=1,tiempolento14=1,tiempolento15=1,tiempolento16=1,tiempolento17=1.6,tiempolento18=2.2,tiempolento19=2.8,tiempolento20=3.2,tiempolento21=3.8,tiempolento22=4.4,tiempolento23=5,tiempolento24=5.5,tiempolento25=0,tiempolento26=0,tiempolento27=0,tiempolento28=0,tiempolento29=0,tiempolento30=0,tiempolento31=0,tiempolento32=0;	
+			}
+			if(poke=="Bar"){
+				tiempolento1=1,tiempolento2=1,tiempolento3=1,tiempolento4=1,tiempolento5=1,tiempolento6=1,tiempolento7=1,tiempolento8=1,tiempolento9=1,tiempolento10=1,tiempolento11=1,tiempolento12=1,tiempolento13=1,tiempolento14=1,tiempolento15=1,tiempolento16=1,tiempolento17=1,tiempolento18=1.5,tiempolento19=2,tiempolento20=2.5,tiempolento21=3,tiempolento22=3.5,tiempolento23=4,tiempolento24=4.5,tiempolento25=5,tiempolento26=0,tiempolento27=0,tiempolento28=0,tiempolento29=0,tiempolento30=0,tiempolento31=0,tiempolento32=0;	
+			}
+			if(poke=="Bul1"){
+				tiempolento1=1,tiempolento2=1,tiempolento3=1,tiempolento4=1,tiempolento5=1,tiempolento6=1,tiempolento7=1,tiempolento8=1,tiempolento9=1,tiempolento10=1,tiempolento11=1,tiempolento12=1,tiempolento13=1,tiempolento14=1,tiempolento15=1,tiempolento16=1,tiempolento17=1,tiempolento18=1,tiempolento19=1.5,tiempolento20=2,tiempolento21=2.5,tiempolento22=3,tiempolento23=3.5,tiempolento24=4,tiempolento25=4.5,tiempolento26=5,tiempolento27=0,tiempolento28=0,tiempolento29=0,tiempolento30=0,tiempolento31=0,tiempolento32=0;	
+			}
+			if(poke=="PsyD1"){
+				tiempolento1=1,tiempolento2=1,tiempolento3=1,tiempolento4=1,tiempolento5=1,tiempolento6=1,tiempolento7=1,tiempolento8=1,tiempolento9=1,tiempolento10=1,tiempolento11=1,tiempolento12=1,tiempolento13=1,tiempolento14=1,tiempolento15=1,tiempolento16=1,tiempolento17=1,tiempolento18=1,tiempolento19=1,tiempolento20=1.5,tiempolento21=2,tiempolento22=2.5,tiempolento23=3,tiempolento24=3.5,tiempolento25=4,tiempolento26=4.5,tiempolento27=5,tiempolento28=0,tiempolento29=0,tiempolento30=0,tiempolento31=0,tiempolento32=0;	
+			}
+			if(poke=="Pika1"){
+				tiempolento1=1,tiempolento2=1,tiempolento3=1,tiempolento4=1,tiempolento5=1,tiempolento6=1,tiempolento7=1,tiempolento8=1,tiempolento9=1,tiempolento10=1,tiempolento11=1,tiempolento12=1,tiempolento13=1,tiempolento14=1,tiempolento15=1,tiempolento16=1,tiempolento17=1,tiempolento18=1,tiempolento19=1,tiempolento20=1,tiempolento21=1.5,tiempolento22=2,tiempolento23=2.5,tiempolento24=3,tiempolento25=3.5,tiempolento26=4,tiempolento27=4.5,tiempolento28=5,tiempolento29=0,tiempolento30=0,tiempolento31=0,tiempolento32=0;	
+			}
+			
+			if(poke=="New"){
+				tiempolento1=1,tiempolento2=1,tiempolento3=1,tiempolento4=1,tiempolento5=1,tiempolento6=1,tiempolento7=1,tiempolento8=1,tiempolento9=1,tiempolento10=1,tiempolento11=1,tiempolento12=1,tiempolento13=1,tiempolento14=1,tiempolento15=1,tiempolento16=1,tiempolento17=1,tiempolento18=1,tiempolento19=1,tiempolento20=1,tiempolento21=1,tiempolento22=1.5,tiempolento23=2,tiempolento24=2.5,tiempolento25=3,tiempolento26=3.5,tiempolento27=4,tiempolento28=4.5,tiempolento29=5,tiempolento30=0,tiempolento31=0,tiempolento32=0;	
+			}
+				if(poke=="PsyD2"){
+				tiempolento1=1,tiempolento2=1,tiempolento3=1,tiempolento4=1,tiempolento5=1,tiempolento6=1,tiempolento7=1,tiempolento8=1,tiempolento9=1,tiempolento10=1,tiempolento11=1,tiempolento12=1,tiempolento13=1,tiempolento14=1,tiempolento15=1,tiempolento16=1,tiempolento17=1,tiempolento18=1,tiempolento19=1,tiempolento20=1,tiempolento21=1,tiempolento22=1,tiempolento23=1.5,tiempolento24=2,tiempolento25=2.5,tiempolento26=3,tiempolento27=3.5,tiempolento28=4,tiempolento29=4.5,tiempolento30=5,tiempolento31=0,tiempolento32=0;	
+			}
+			if(poke=="MasterBall"){
+				tiempolento1=1,tiempolento2=1,tiempolento3=1,tiempolento4=1,tiempolento5=1,tiempolento6=1,tiempolento7=1,tiempolento8=1,tiempolento9=1,tiempolento10=1,tiempolento11=1,tiempolento12=1,tiempolento13=1,tiempolento14=1,tiempolento15=1,tiempolento16=1,tiempolento17=1,tiempolento18=1,tiempolento19=1,tiempolento20=1,tiempolento21=1,tiempolento22=1,tiempolento23=1,tiempolento24=1.5,tiempolento25=2,tiempolento26=2.5,tiempolento27=3,tiempolento28=3.5,tiempolento29=4,tiempolento30=4.5,tiempolento31=5,tiempolento32=0;	
+			}
+			
+		   setTimeout ("Bar(true)", 50*tiempolento1);
+		   setTimeout ("Bul1(true)", 100*tiempolento2);
+		   setTimeout ("PsyD1(true)", 150*tiempolento3);
+		   setTimeout ("Pika1(true)", 200*tiempolento4);
+		   setTimeout ("New(true)", 250*tiempolento5);
+		   setTimeout ("PsyD2(true)", 300*tiempolento6);
+		   setTimeout ("MasterBall(true)", 350*tiempolento7);
+		   setTimeout ("Bul2(true)", 400*tiempolento8);
+		   setTimeout ("PsyD3(true)", 450*tiempolento9);
+		   setTimeout ("Squa1(true)", 500*tiempolento10);
+		   setTimeout ("Char1(true)", 550*tiempolento11);
+		   setTimeout ("PsyD4(true)", 600*tiempolento12);
+		   setTimeout ("siete(true)", 650*tiempolento13);
+		   setTimeout ("Bul3(true)", 700*tiempolento14);
+		   setTimeout ("PsyD5(true)", 750*tiempolento15);
+		   setTimeout ("Pika2(true)", 800*tiempolento16);
+		   setTimeout ("NewTwo(true)", 850*tiempolento17);
+		   setTimeout ("PsyD6(true)", 900*tiempolento18);
+		   setTimeout ("UltraBall(true)", 950*tiempolento19);
+		   setTimeout ("Bul4(true)", 1000*tiempolento20);
+		   setTimeout ("PsyD7(true)", 1050*tiempolento21);
+		   setTimeout ("Squa2(true)", 1100*tiempolento22);
+		   setTimeout ("Char2(true)", 1150*tiempolento23);
+		   setTimeout ("Bar2(true)", 1200*tiempolento24);
+		   setTimeout ("Bar(true)", 1250*tiempolento25);
+		   setTimeout ("Bul1(true)", 1350*tiempolento26);
+		   setTimeout ("PsyD1(true)", 1400*tiempolento27);
+		   setTimeout ("Pika1(true)", 1450*tiempolento28);
+		   setTimeout ("New(true)", 1500*tiempolento29);
+		   setTimeout ("PsyD2(true)", 1550*tiempolento30);
+		   setTimeout ("MasterBall(true)", 1600*tiempolento31);
+		   
+		   setTimeout ("Bar(false)", (50*tiempolento1)+tiempop*tiempolento1);
+		   setTimeout ("Bul1(false)", (100*tiempolento2)+tiempop*tiempolento2);
+		   setTimeout ("PsyD1(false)", (150*tiempolento3)+tiempop*tiempolento3);
+		   setTimeout ("Pika1(false)", (200*tiempolento4)+tiempop*tiempolento4);
+		   setTimeout ("New(false)", (250*tiempolento5)+tiempop*tiempolento5);
+		   setTimeout ("PsyD2(false)", (300*tiempolento6)+tiempop*tiempolento6);
+		   setTimeout ("MasterBall(false)", (350*tiempolento7)+tiempop*tiempolento7);
+		   if(poke!="Bul2")
+		   setTimeout ("Bul2(false)", (400*tiempolento8)+tiempop*tiempolento8);
+		   if(poke!="PsyD3")
+		   setTimeout ("PsyD3(false)", (450*tiempolento9)+tiempop*tiempolento9);
+		   if(poke!="Squa1")
+		   setTimeout ("Squa1(false)", (500*tiempolento10)+tiempop*tiempolento10);
+		   if(poke!="Char1")
+		   setTimeout ("Char1(false)", (550*tiempolento11)+tiempop*tiempolento11);
+		   if(poke!="PsyD4")
+		   setTimeout ("PsyD4(false)", (600*tiempolento12)+tiempop*tiempolento12);
+		   if(poke!="siete")
+		   setTimeout ("siete(false)", (650*tiempolento13)+tiempop*tiempolento13);
+		   if(poke!="Bul3")
+		   setTimeout ("Bul3(false)", (700*tiempolento14)+tiempop*tiempolento14);
+		   if(poke!="PsyD5")
+		   setTimeout ("PsyD5(false)", (750*tiempolento15)+tiempop*tiempolento15);
+		   if(poke!="Pika2")
+		   setTimeout ("Pika2(false)", (800*tiempolento16)+tiempop*tiempolento16);
+		   if(poke!="NewTwo")
+		 setTimeout ("NewTwo(false)", (850*tiempolento17)+tiempop*tiempolento17);
+		 if(poke!="PsyD6")
+		   setTimeout ("PsyD6(false)", (900*tiempolento18)+tiempop*tiempolento18);
+		   if(poke!="UltraBall")
+		   setTimeout ("UltraBall(false)", (950*tiempolento19)+tiempop*tiempolento19);
+		   if(poke!="Bul4")
+		   setTimeout ("Bul4(false)", (1000*tiempolento20)+tiempop*tiempolento20);
+		   if(poke!="PsyD7")
+		   setTimeout ("PsyD7(false)", (1050*tiempolento21)+tiempop*tiempolento21);
+		   if(poke!="Squa2")
+		   setTimeout ("Squa2(false)", (1100*tiempolento22)+tiempop*tiempolento22);
+		   if(poke!="Char2")
+		   setTimeout ("Char2(false)", (1150*tiempolento23)+tiempop*tiempolento23);
+		   if(poke!="Bar2")
+		   setTimeout ("Bar2(false)", (1200*tiempolento24)+tiempop*tiempolento24);
+		   if(poke!="Bar")
+		   setTimeout ("Bar(false)", (1300*tiempolento25)+tiempop*tiempolento26);
+		   if(poke!="Bul1")
+		   setTimeout ("Bul1(false)", (1350*tiempolento26)+tiempop*tiempolento27);
+		   if(poke!="PsyD1")
+		   setTimeout ("PsyD1(false)", (1400*tiempolento27)+tiempop*tiempolento28);
+		   if(poke!="Pika1")
+		   setTimeout ("Pika1(false)", (1450*tiempolento28)+tiempop*tiempolento29);
+		   if(poke!="New")
+		   setTimeout ("New(false)", (1500*tiempolento29)+tiempop*tiempolento30);
+		   if(poke!="PsyD2")
+		   setTimeout ("PsyD2(false)", (1550*tiempolento30)+tiempop*tiempolento31);
+		   if(poke!="MasterBall")
+		   setTimeout ("MasterBall(false)", (1600*tiempolento31)+tiempop*tiempolento32);
+		  	
+		  
+		   
+	   }
+        function Bar(isS) {
+			if(isS)
+				$('#Bar').html('<img src=\"img/bar100_s.jpg\" alt=\"\" width=\"80\" height=\"80\" />');
+				else
+				$('#Bar').html('<img src=\"img/bar100.jpg\" alt=\"\" width=\"80\" height=\"80\" />');
+		}
+		 function Bar2(isS) {
+			if(isS)
+				$('#Bar2').html('<img src=\"img/bar50_s.jpg\" alt=\"\" width=\"80\" height=\"80\" />');
+				else
+				$('#Bar2').html('<img src=\"img/bar50.jpg\" alt=\"\" width=\"80\" height=\"80\" />');
+		}
+        
+		 function Bul1(isS) {
+			if(isS)
+				$('#Bul1').html('<img src=\"img/bulba_s.gif\" alt=\"\" width=\"80\" height=\"80\" />');
+				else
+				$('#Bul1').html('<img src=\"img/bulba.gif\" alt=\"\" width=\"80\" height=\"80\" />');
+		}
+		 function Bul2(isS) {
+			if(isS)
+				$('#Bul2').html('<img src=\"img/bulba_s.gif\" alt=\"\" width=\"80\" height=\"80\" />');
+				else
+				$('#Bul2').html('<img src=\"img/bulba.gif\" alt=\"\" width=\"80\" height=\"80\" />');
+		}
+		 function Bul3(isS) {
+			if(isS)
+				$('#Bul3').html('<img src=\"img/bulba_s.gif\" alt=\"\" width=\"80\" height=\"80\" />');
+				else
+				$('#Bul3').html('<img src=\"img/bulba.gif\" alt=\"\" width=\"80\" height=\"80\" />');
+		}
+		 function Bul4(isS) {
+			if(isS)
+				$('#Bul4').html('<img src=\"img/bulba_s.gif\" alt=\"\" width=\"80\" height=\"80\" />');
+				else
+				$('#Bul4').html('<img src=\"img/bulba.gif\" alt=\"\" width=\"80\" height=\"80\" />');
+		}
+		
+		function PsyD1(isS) {
+			if(isS)
+				$('#PsyD1').html('<img src=\"img/Psyduck_s.gif\" alt=\"\" width=\"80\" height=\"80\" />');
+				else
+				$('#PsyD1').html('<img src=\"img/Psyduck.gif\" alt=\"\" width=\"80\" height=\"80\" />');
+		}
+		function PsyD2(isS) {
+			if(isS)
+				$('#PsyD2').html('<img src=\"img/Psyduck_s.gif\" alt=\"\" width=\"80\" height=\"80\" />');
+				else
+				$('#PsyD2').html('<img src=\"img/Psyduck.gif\" alt=\"\" width=\"80\" height=\"80\" />');
+		}
+		function PsyD3(isS) {
+			if(isS)
+				$('#PsyD3').html('<img src=\"img/Psyduck_s.gif\" alt=\"\" width=\"80\" height=\"80\" />');
+				else
+				$('#PsyD3').html('<img src=\"img/Psyduck.gif\" alt=\"\" width=\"80\" height=\"80\" />');
+		}
+		function PsyD4(isS) {
+			if(isS)
+				$('#PsyD4').html('<img src=\"img/Psyduck_s.gif\" alt=\"\" width=\"80\" height=\"80\" />');
+				else
+				$('#PsyD4').html('<img src=\"img/Psyduck.gif\" alt=\"\" width=\"80\" height=\"80\" />');
+		}
+		function PsyD5(isS) {
+			if(isS)
+				$('#PsyD5').html('<img src=\"img/Psyduck_s.gif\" alt=\"\" width=\"80\" height=\"80\" />');
+				else
+				$('#PsyD5').html('<img src=\"img/Psyduck.gif\" alt=\"\" width=\"80\" height=\"80\" />');
+		}
+		function PsyD6(isS) {
+			if(isS)
+				$('#PsyD6').html('<img src=\"img/Psyduck_s.gif\" alt=\"\" width=\"80\" height=\"80\" />');
+				else
+				$('#PsyD6').html('<img src=\"img/Psyduck.gif\" alt=\"\" width=\"80\" height=\"80\" />');
+		}
+		function PsyD7(isS) {
+			if(isS)
+				$('#PsyD7').html('<img src=\"img/Psyduck_s.gif\" alt=\"\" width=\"80\" height=\"80\" />');
+				else
+				$('#PsyD7').html('<img src=\"img/Psyduck.gif\" alt=\"\" width=\"80\" height=\"80\" />');
+		}
+		
+		function Pika1(isS) {
+			if(isS)
+			$('#Pika1').html('<img src=\"img/pikachu_s.png\" alt=\"\" width=\"80\" height=\"80\" />');
+				else
+				$('#Pika1').html('<img src=\"img/pikachu.png\" alt=\"\" width=\"80\" height=\"80\" />');
+		}
+		
+		function Pika2(isS) {
+			if(isS)
+				$('#Pika2').html('<img src=\"img/pikachu_s.png\" alt=\"\" width=\"80\" height=\"80\" />');
+				else
+				$('#Pika2').html('<img src=\"img/pikachu.png\" alt=\"\" width=\"80\" height=\"80\" />');
+		}
+		
+		function New(isS) {
+			if(isS)
+				$('#New').html('<img src=\"img/new_s.gif\" alt=\"\" width=\"80\" height=\"80\" />');
+				else
+				$('#New').html('<img src=\"img/new.gif\" alt=\"\" width=\"80\" height=\"80\" />');
+		}
+		function NewTwo(isS) {
+			if(isS)
+				$('#NewTwo').html('<img src=\"img/newtwo_s.png\" alt=\"\" width=\"80\" height=\"80\" />');
+				else
+				$('#NewTwo').html('<img src=\"img/newtwo.png\" alt=\"\" width=\"80\" height=\"80\" />');
+		}
+		function MasterBall(isS) {
+			if(isS)
+				$('#MasterBall').html('<img src=\"img/masterball_s.png\" alt=\"\" width=\"80\" height=\"80\" />');
+				else
+				$('#MasterBall').html('<img src=\"img/masterball.png\" alt=\"\" width=\"80\" height=\"80\" />');
+		}
+		
+		function UltraBall(isS) {
+			if(isS)
+				$('#UltraBall').html('<img src=\"img/ultraball_s.png\" alt=\"\" width=\"80\" height=\"80\" />');
+				else
+				$('#UltraBall').html('<img src=\"img/ultraball.png\" alt=\"\" width=\"80\" height=\"80\" />');
+		}
+		
+		function Squa1(isS) {
+			if(isS)
+				$('#Squa1').html('<img src=\"img/Squirtle_s.png\" alt=\"\" width=\"80\" height=\"80\" />');
+				else
+				$('#Squa1').html('<img src=\"img/Squirtle.png\" alt=\"\" width=\"80\" height=\"80\" />');
+		}
+		function Squa2(isS) {
+			if(isS)
+				$('#Squa2').html('<img src=\"img/Squirtle_s.png\" alt=\"\" width=\"80\" height=\"80\" />');
+				else
+				$('#Squa2').html('<img src=\"img/Squirtle.png\" alt=\"\" width=\"80\" height=\"80\" />');
+		}
+		
+		function Char1(isS) {
+			if(isS)
+				$('#Char1').html('<img src=\"img/charmander_s.gif\" alt=\"\" width=\"80\" height=\"80\" />');
+				else
+				$('#Char1').html('<img src=\"img/charmander.gif\" alt=\"\" width=\"80\" height=\"80\" />');
+		}
+		function Char2(isS) {
+			if(isS)
+				$('#Char2').html('<img src=\"img/charmander_s.gif\" alt=\"\" width=\"80\" height=\"80\" />');
+				else
+				$('#Char2').html('<img src=\"img/charmander.gif\" alt=\"\" width=\"80\" height=\"80\" />');
+		}
+		function siete(isS) {
+			if(isS)
+				$('#7').html('<img src=\"img/7_s.jpg\" alt=\"\" width=\"80\" height=\"80\" />');
+				else
+				$('#7').html('<img src=\"img/7.jpg\" alt=\"\" width=\"80\" height=\"80\" />');
+		}
+		
+		
+		Funcion('ObtenerDatos');
+        </script>
+</head>
+
+<body>
+<table  border="1" align="center" cellpadding="1" cellspacing="1">
+  <tr>
+    <td width="50" height="50" id="Squa2"><img src="img/Squirtle.png" alt="" width="80" height="80" /></td>
+    <td width="50" height="50" id="Char2"><img src="img/charmander.gif" alt="" width="80" height="80" /></td>
+    <td width="50" height="50" id="Bar2"><img src="img/bar50.jpg" alt="" width="80" height="80" /></td>
+    <td width="50" height="50" id="Bar"><img src="img/bar100.jpg" alt="" width="80" height="80" /></td>
+    <td width="50" height="50" id="Bul1"><img src="img/bulba.gif" alt="" width="80" height="80" /></td>
+    <td width="50" height="50" id="PsyD1"><img src="img/Psyduck.gif" alt="" width="80" height="80" /></td>
+    <td width="80" height="50" id="Pika1"><img src="img/pikachu.png" alt="" width="80" height="80" /></td>
+  </tr>
+  <tr>
+    <td width="50" height="50" id="PsyD7"><img src="img/Psyduck.gif" alt="" width="80" height="80" /></td>
+    <td colspan="5" rowspan="5" align="center" valign="top"><table width="332" border="1" align="center" cellpadding="1" cellspacing="1">
+      <tr>
+        <td width="149" align="center"><strong>CREDITO</strong></td>
+        <td width="25" align="center">&nbsp;</td>
+        <td width="140" align="center"><strong>GANASTE</strong></td>
+      </tr>
+      <tr>
+        <td align="center"><strong id="Credito">0</strong></td>
+        <td align="center">&nbsp;</td>
+        <td align="center"><strong id="Ganaste">0</strong></td>
+      </tr>
+    </table></td>
+    <td width="80" height="50"  id="New"><img src="img/new.gif" alt="" width="75" height="75" /></td>
+  </tr>
+  <tr>
+    <td width="50" height="50" id="Bul4"><img src="img/bulba.gif" alt="" width="80" height="80" /></td>
+    <td width="80" height="50" id="PsyD2" ><img src="img/Psyduck.gif" alt="" width="80" height="80" /></td>
+  </tr>
+  <tr>
+    <td width="50" height="50" id="UltraBall"><img src="img/ultraball.png" alt="" width="80" height="80" /></td>
+    <td width="80" height="50"  id="MasterBall"><img src="img/masterball.png" alt="" width="70" height="70" /></td>
+  </tr>
+  <tr>
+    <td width="50" height="50" id="PsyD6"><img src="img/Psyduck.gif" alt="" width="80" height="80" /></td>
+    <td width="80" height="50" id="Bul2"><img src="img/bulba.gif" alt="" width="80" height="80" /></td>
+  </tr>
+  <tr>
+    <td width="50" height="80"  id="NewTwo"><img src="img/newtwo.png" alt="" width="80" height="80" /></td>
+    <td width="80" height="80" id="PsyD3"><img src="img/Psyduck.gif" width="80" height="80" /></td>
+  </tr>
+  <tr>
+    <td width="50" height="50"  id="Pika2"><img src="img/pikachu.png" alt="" width="80" height="80" /></td>
+    <td width="50" height="50" id="PsyD5"><img src="img/Psyduck.gif" alt="" width="80" height="80" /></td>
+    <td width="50" height="50" id="Bul3"><img src="img/bulba.gif" alt="" width="80" height="80" /></td>
+    <td width="50" height="50" id="7"><img src="img/7.jpg" alt="" width="80" height="80" /></td>
+    <td width="50" height="50" id="PsyD4"><img src="img/Psyduck.gif" alt="" width="80" height="80" /></td>
+    <td width="50" height="50" id="Char1"><img src="img/charmander.gif" alt="" width="80" height="80" /></td>
+    <td width="80" height="50"  id="Squa1"><img src="img/Squirtle.png" alt="" width="80" height="80" /></td>
+  </tr>
+  <tr>
+    <td height="23" colspan="7"><table width="589" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="75" align="center" valign="middle"><input type="button" name="button" id="button" value="Cobrar" onclick="Funcion('Cobrar')" /></td>
+        <td width="112" align="center" valign="middle">&nbsp;</td>
+        <td width="92" align="center" valign="middle"><input type="button" name="button2" id="button2" value="<-" /></td>
+        <td width="93" align="center" valign="middle"><input type="button" name="button3" id="button3" value="->" /></td>
+        <td width="106" align="center" valign="middle">&nbsp;</td>
+        <td width="78" align="center" valign="middle"><input type="button" name="button4" id="jugar" value="Jugar" onclick="Funcion('Jugar')" /></td>
+        </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td colspan="7"><table width="200" border="1" align="center" cellpadding="1" cellspacing="1">
+      <tr>
+        <td align="center" valign="middle"><div id="Manzana"><strong>0</strong></div></td>
+        <td align="center" valign="middle"><div id="Zandia"><strong>0</strong></div></td>
+        <td align="center" valign="middle"><div id="Estrella"><strong>0</strong></div></td>
+        <td align="center" valign="middle"><div id="Siete"><strong>0</strong></div></td>
+        <td align="center" valign="middle"><div id="BarP"><strong>0</strong></div></td>
+        <td align="center" valign="middle"><div id="Campana"><strong>0</strong></div></td>
+        <td align="center" valign="middle"><div id="Tuna"><strong>0</strong></div></td>
+        <td align="center" valign="middle"><div id="Cereza"><strong>0</strong></div></td>
+        <td align="center" valign="middle"><div id="Uva"><strong>0</strong></div></td>
+      </tr>
+      <tr>
+        <td><img src="img/bulba.gif" alt="" width="60" height="60"onclick="Funcion('setBul')" /></td>
+        <td><img src="img/new.gif" alt="" width="60" height="60" onclick="Funcion('setNew')"/></td>
+        <td><img src="img/newtwo.png" alt="" width="60" height="60" onclick="Funcion('setNewTwo')" /></td>
+        <td><img src="img/7.jpg" alt="" width="60" height="60" onclick="Funcion('setSiete')" /></td>
+        <td><img src="img/bar100.jpg" alt="" width="60" height="60" onclick="Funcion('setBar')"/></td>
+        <td><img src="img/charmander.gif" alt="" width="60" height="60" onclick="Funcion('setChar')"/></td>
+        <td><img src="img/pikachu.png" alt="" width="60" height="60" onclick="Funcion('setPika')"/></td>
+        <td><img src="img/Squirtle.png" alt="" width="60" height="60" onclick="Funcion('setSqua')"/></td>
+        <td><img src="img/Psyduck.gif" alt="" width="60" height="60" onclick="Funcion('setPsy')"/></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+</body>
+</html>
